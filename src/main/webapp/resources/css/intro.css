@@ -1,0 +1,67 @@
+body{
+    min-width: 1000px;
+}
+.nav_member{
+
+}
+
+.member_area{
+    display: flex;
+    background-color:#8b8b8b;
+    justify-content: space-between;
+}
+
+.member_area li {
+    font-size: 13px;
+    list-style-type:none;
+    background-color: #8b8b8b;
+    float: left;
+}
+.nav_member ul li a{
+    line-height: 50px;
+    color: white;
+    padding: 20px 30px 0 10px;
+}
+
+.headerTop{
+
+    margin: 0;
+    display:grid;
+    grid-template-columns: 15% 85%;
+
+}
+.headerLeft{
+    margin: 0 5px 5px 15px;
+    grid-column:1/2;
+    min-width: 300px;
+}
+.headerRight{
+    margin : 20px 0 0px 45px;
+    grid-column:2/3;
+    background-color: #916dd5;
+}
+.headerNav{
+    display: flex;
+    list-style:none;
+    padding-left:0px;
+    height:40px;
+}
+.headerNav li{
+    min-width:100px;
+    padding: 10px 0 0 0;
+    float:left;
+    margin-left:300px;
+    text-align: center;
+}
+.headerNav li a{
+    color: white
+}
+.footerLogo{
+    height: 30px;
+
+}
+
+.footerInfo{
+    font-size: 14px;
+    margin: 5px 15px;
+}s
